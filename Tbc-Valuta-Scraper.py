@@ -10,9 +10,9 @@ values = [tag.text.strip() for tag in scrap_values]
 
 if get_data == "USD" or get_data == "usd":
     print(f"რეალურ დროში 1 დოლარი არის:  {values[0]} ლარი" )
-if get_data == "EURO" or get_data == "euro":
+else if get_data == "EURO" or get_data == "euro":
     print(f"რეალურ დროში 1 ევრო  არის:  {values[1]} ლარი" )
-if get_data == "GBP" or get_data == "gbp":
+else if get_data == "GBP" or get_data == "gbp":
     print(f"რეალურ დროში 1 სტერლინგი არის:  {values[2]} ლარი")
 else:
     print("გთხოვთ მონაცემი შეიყვანოთ სწორად")
